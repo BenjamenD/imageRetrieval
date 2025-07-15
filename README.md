@@ -1,19 +1,22 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/7zE2enYT)
-# CSCI 4141 Information Retrieval - Assignment 2
+# CIFAR-10 Image Retrieval with PyTorch and Pinecone
 
-Welcome to the Assignment 2 repository for CSCI 4141 Information Retrieval. This assignment focuses on building an image retrieval system using technques like SIFT, CNN,vector databases, etc.
+This project demonstrates an image similarity search system using the CIFAR-10 dataset, a ResNet-based feature extractor, and Pinecone for vector indexing and retrieval.
 
-## Usage
+## Features
+- Loads and preprocesses the CIFAR-10 dataset
+- Uses `ResNet18` to extract feature vectors
+- Stores feature vectors in Pinecone
+- Performs similarity-based image retrieval
+- Visualizes query and retrieved images
 
-1. Clone this repository to your local machine.
-2. Navigate to the project directory.
-4. Open the `assignment.ipynb` notebook file in your vscode or colab
-5. Run the notebook cells in sequential order and add relevant code or markdown to complete the assignment.
+## Tech Stack
+- Python
+- PyTorch
+- Torchvision
+- OpenCV
+- Pinecone
+- Matplotlib
 
-## Deadline
+## Dataset
 
-The assignment deadline is mentioned in the course syllabus. Make sure to submit your work before the deadline to avoid any penalties.
-
-If you have any questions or need further clarification, please don't hesitate to reach out.
-
-Good luck with the assignment!
+Install the required dataset from https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
